@@ -2,25 +2,26 @@
 
 This tool allows users to calculate the CVSS score using a command-line interface (CLI).
 
-Requirements
-~~~~~~~~~~~~
+## Requirements
+
 
 - `argparse`
 - `json`
 - `colorama`
 
-
+---
 
 
 Download/Installation
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
-* git clone 
-* cd vacvssx https://github.com/sudhantechie/Vacvssx.git
+* git clone https://github.com/sudhantechie/Vacvssx.git
+* cd vacvssx 
 * pip install -r requirements.txt
 
 Usage
-~~~~~
+-----
+
 ```
 
       __     ___    ______     ______ ______  __
@@ -53,49 +54,49 @@ options:
 ```
 
 Examples
-~~~~~~~~
+--------
 
 
 1. **Using a Default Vulnerability:**
 
-  This command uses a default vulnerability from the list:
+ This command uses a default vulnerability from the list:
 
    
-   python vacvssx.py --use-default
+    python vacvssx.py --use-default
    
 
-  Output:
+Output:
    
-   Select a default vulnerability from the list:
-   [0] CVE-2021-12345: Example Vulnerability Description
-   Enter the index of the vulnerability: 0
-   Creating vulnerability assessment...
+    Select a default vulnerability from the list:
+    [0] CVE-2021-12345: Example Vulnerability Description
+    Enter the index of the vulnerability: 0
+    Creating vulnerability assessment...
    
 
 2. **Creating a Custom Vulnerability:**
 
-  This command creates a custom vulnerability with the specified attributes:
+ This command creates a custom vulnerability with the specified attributes:
 
    
-   python vacvssx.py --id "CVE-2021-22986" --description "Vulnerability in F5 BIG-IP APM leading to authentication bypass." --impact 8.5 --exploitability 6.0
+    python vacvssx.py --id "CVE-2021-22986" --description "Vulnerability in F5 BIG-IP APM leading to authentication bypass." --impact 8.5 --exploitability 6.0
    
 
-  Output:
+ Output:
    
-   Creating vulnerability assessment...
+    Creating vulnerability assessment...
    
 
 3. **Displaying Help Message:**
 
-  To see all available options and usage instructions, use the help flag:
+ To see all available options and usage instructions, use the help flag:
 
    
-   python vacvssx.py --help
+    python vacvssx.py --help
    
 
   Output:
    
-   usage: vacvssx.py [-h] [--use-default] [--id ID] [--description DESCRIPTION] [--impact IMPACT]
+    usage: vacvssx.py [-h] [--use-default] [--id ID] [--description DESCRIPTION] [--impact IMPACT]
                      [--exploitability EXPLOITABILITY]
    
 
