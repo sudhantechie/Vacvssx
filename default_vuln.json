@@ -1,0 +1,21 @@
+[
+  {
+    "id": "CVE-2021-44228",
+    "description": "Apache Log4j 2 Remote Code Execution vulnerability",
+    "impact": 9.0,
+    "exploitability": 10.0
+  },
+  {
+    "id": "CVE-2020-0601",
+    "description": "Windows CryptoAPI Spoofing Vulnerability",
+    "impact": 8.1,
+    "exploitability": 6.0
+  },
+  {
+    "id": "CVE-2014-0160",
+    "description": "OpenSSL Heartbleed vulnerability",
+    "impact": 7.5,
+    "exploitability": 10.0
+  }
+]
+
