@@ -84,6 +84,11 @@ Output:
  Output:
    
     Creating vulnerability assessment...
+    Vulnerability Details:
+    ID: CVE-2021-22986
+    Description: Vulnerability in F5 BIG-IP APM leading to authentication bypass.
+    Impact: 8.5
+    Exploitability: 6.0
    
 
 3. **Displaying Help Message:**
