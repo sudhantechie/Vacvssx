@@ -94,7 +94,7 @@ def main():
 
     # Calculate CVSS score
     cvss_score = assess_cvss(vulnerability)
-    print(f"\n{Fore.LIGHTBLUE_EX}Calculated CVSS Score: {Fore.RED}{cvss_score:.2f}{Style.RESET_ALL}")
+    print(f"\n{Fore.WHITE}Calculated CVSS Score: {Fore.RED}{cvss_score:.2f}{Style.RESET_ALL}")
 
 
 if __name__ == "__main__":
