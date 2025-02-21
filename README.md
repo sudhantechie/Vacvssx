@@ -16,7 +16,7 @@ Download/Installation
 ---------------------
 
 * git clone https://github.com/sudhantechie/Vacvssx.git
-* cd vacvssx 
+* cd Vacvssx 
 * pip install -r requirements.txt
 
 Usage
